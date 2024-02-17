@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 50px 90px;
+    padding-top: 120px;
+    
+}
+#left{
+    height: 100%;
+    width: 48%;
+     background-color: blue; 
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    
+}
+#right{
+    height: 100%;
+    width: 48%;
+    background-color: black;
+    
+}
+#left h1{
+    font-size: 102px;
+    font-weight: 500;
+    line-height: 85px;
+}
+#buttom-left{
+height: 40%;
+width: 100%;
+background-color: aqua;
+}
